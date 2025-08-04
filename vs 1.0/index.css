@@ -1,0 +1,424 @@
+
+body{
+  background-color: #1f1f1f;
+  color: aliceblue;
+  margin-top: -30px;
+  margin-left: 90px;
+  margin-right: 70px;
+}
+
+
+
+.containermain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 100%;
+}
+
+.grid1{
+  width: 70%;
+}
+
+.Suhail{
+  margin-top: 60px ;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #8bbfaa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover{
+  color: #0b8f5f;
+}
+
+.one{
+  margin-top: 200px;
+}
+
+.grid1 button{
+  margin-top: 40px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.grid2{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.pic1 image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Welcome{
+    font-family: Poppins; 
+    font-weight: 250;
+    letter-spacing: 7px;
+    font-size: 40px;
+    
+}
+
+.Iam {
+    font-family: Poppins;
+    font-weight: 455;
+    font-size: 60px;
+}
+
+.Cred{
+    font-family: Poppins;
+    font-weight: 250;
+    font-size: 15px;
+}
+/* ----------------------------------------------------  */
+  .about-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 100%;
+    gap: 200px;
+  }
+
+  .abt-pic-full{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+   /* width: 40%;*/
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 300px;
+    height: 425px;
+    background-color: #ecffca;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+  }
+
+  .abt-pic-full image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .about{
+    width: 60%;
+  }
+
+  .about h2{
+    font-family: Poppins;
+    font-weight: 550;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ebeee6;
+  }
+
+  .about p{
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 15px;
+    color: #ebeee6;
+  }
+
+
+  
+/* ----------------------------------------------------  */
+
+.skill-topic h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: -20px;
+}
+
+.skill-full h3{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.skill-topic {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.line{
+  width: 150px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: -50px;
+}
+
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-icons{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.skill-icons img{
+  width: 70px;
+  height: 70px;
+}
+
+.language-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+  font-family: Poppins;
+  letter-spacing: 2px;
+  font-weight: 500;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+
+
+.label {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  flex-direction: column;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #2f302e;
+}
+
+.lang {
+  font-size: 25px ;
+}
+
+.lang-ico{
+  display: flex;
+  gap: 8px;
+}
+
+.lang-ico img{
+  width: 30px;
+  height: 30px;
+}
+
+  
+/* ----------------------------------------------------  */
+
+
+.portfolio-full h2{
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.prj {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  height: 600px;
+  border: 3px solid #373737;;
+  background-color: #1f1f1f;;
+}
+
+.prj-box {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  background-color: #282727;
+  overflow: hidden;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.prj-box .content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.prj-box img {
+  width: 100%;
+  height: auto;
+}
+
+.prj-box h3 {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.prj-box:hover .content {
+  opacity: 0;
+}
+
+.prj1::before,
+.prj2::before,
+.prj3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.prj1::before {
+  background-image: url('assets/prj1.jpg');
+}
+
+.prj2::before {
+  background-image: url('assets/prj2.jpg');
+}
+
+.prj3::before {
+  background-image: url('assets/prj3.jpg');
+}
+
+.prj-box:hover::before {
+  opacity: 1;
+}
+
+.prj-box:hover {
+  transform: scale(1.15);
+  z-index: 3;
+  border-color: #373737;
+  box-shadow: 0 0 20px #595959;
+}
+.prj:hover{
+  border: none;
+}
+
+.prj:hover .prj-box:not(:hover) {
+  transform: scale(0.9);
+  filter: brightness(0.6);
+}
+
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Poppins;
+  font-size: 24px;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+}
+
+.prj-box:hover .hover-text {
+  opacity: 1;
+}
+
+
+
+
+/* ----------------------------------------------------  */
+
+.Contact{
+  display: grid;
+  width: 600px;
+  align-items:center;
+  padding: 0px 550px;
+}
+
+.Contact h2{
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 40px;
+  margin-left: -376px;
+  margin-bottom: 10px;
+}
+
+.Line{
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: -77px;
+  margin-left: 37px;
+}
+
+
+
+.contact-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: -10px;
+}
+
+.contact-icons img{
+  width: 28px;
+  height: 28px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.contact-icons img::before{
+  opacity: 0.8;
+}
+.contact-icons img:hover{
+  transform: scale(1.55);
+}
+
+/* ----------------------------------------------------  */
+
+footer{
+  /*background: linear-gradient(to right, #212021, #2e2d2c,#212021);*/
+  color: #fff;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+
+
